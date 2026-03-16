@@ -1,88 +1,28 @@
-```html
-<!-- ******************** BLOCK 1 (LINES 1-500) ******************** -->
-<!-- ==================== index.html (HTML only) ==================== -->
-<!DOCTYPE html>
+        <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GHOST BUILDER v6.0 · Industrial Shell</title>
-    <!-- Neo-skeuomorphic core styles (external) -->
+    <title>GHOST BUILDER v6.0</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Optional: Font for industrial feel -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Main container: dark industrial dashboard -->
     <div class="dashboard">
-        <!-- Sidebar (SCAN, LOGIC, ASSETS, CODE, EXPORT) -->
         <nav class="sidebar">
-            <div class="logo">
-                <span class="logo-icon">👻</span>
-                <span class="logo-text">GHOST<br>BUILDER v6.0</span>
-            </div>
+            <div class="logo">👻 GHOST BUILDER</div>
             <ul class="nav-menu">
-                <li><a href="#" class="nav-item active" data-tool="scan">SCAN</a></li>
-                <li><a href="#" class="nav-item" data-tool="logic">LOGIC</a></li>
-                <li><a href="#" class="nav-item" data-tool="assets">ASSETS</a></li>
-                <li><a href="#" class="nav-item" data-tool="code">CODE</a></li>
-                <li><a href="#" class="nav-item" data-tool="export">EXPORT</a></li>
+                <li><a href="#" class="nav-item active">SCAN</a></li>
+                <li><a href="#" class="nav-item">LOGIC</a></li>
             </ul>
-            <div class="hardware-buttons">
-                <button class="hardware-btn install">INSTALL APP</button>
-                <button class="hardware-btn copy">COPY CODE</button>
-            </div>
         </nav>
-
-        <!-- Main workspace: central terminal + preview panels -->
         <main class="workspace">
-            <!-- Central terminal area -->
             <div class="terminal-container">
-                <div class="terminal-header">
-                    <span class="terminal-title">GHOST TERMINAL v6.0</span>
-                    <span class="terminal-status">● ONLINE</span>
-                </div>
                 <div id="ghost-terminal" class="terminal">
-                    <div class="line">> system.ready</div>
-                    <div class="line">[OK] Core initialized</div>
-                    <div class="line">> scan.pending</div>
-                    <div class="line cursor">_</div>
-                </div>
-            </div>
-
-            <!-- Preview panels (two side‑by‑side) -->
-            <div class="preview-panels">
-                <div class="panel left-panel">
-                    <div class="panel-header">
-                        <span class="panel-title">NODE PROGRESS</span>
-                        <span class="panel-indicator">5 NODES</span>
-                    </div>
-                    <div class="progress-nodes">
-                        <div class="node completed">1. SCAN</div>
-                        <div class="node active">2. LOGIC</div>
-                        <div class="node">3. ASSETS</div>
-                        <div class="node">4. CODE</div>
-                        <div class="node">5. EXPORT</div>
-                    </div>
-                </div>
-                <div class="panel right-panel">
-                    <div class="panel-header">
-                        <span class="panel-title">PREVIEW</span>
-                        <span class="panel-indicator">LIVE</span>
-                    </div>
-                    <div class="preview-content">
-                        <!-- Placeholder for dynamic content -->
-                        <pre>-- GHOST BUILDER v6.0 --</pre>
-                    </div>
+                    <div class="line">> SYSTEM REPAIRING...</div>
                 </div>
             </div>
         </main>
     </div>
-
-    <!-- Minimal script (will be expanded later) -->
     <script src="script.js"></script>
 </body>
 </html>
-<!-- ******************** END BLOCK 1 ******************** -->
-<!-- Next: Block 2 will be the first 500 lines of style.css -->
-```
